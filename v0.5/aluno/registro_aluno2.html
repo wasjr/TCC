@@ -52,102 +52,80 @@
         <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-4 well well-sm">
-                <legend><i class="glyphicon glyphicon-home"></i></a> II - Endereço Residencial</legend>
+                <legend><i class="glyphicon glyphicon-home"></i>&nbsp<i class="glyphicon glyphicon-earphone"></i></a> II - Endereço e Contato</legend>
                 <form action="#" method="post" class="form-group" role="form">
-                <label>Nome</label>    
-                <input class="form-control" name="nome" placeholder="Insira seu nome completo" type="text"/>
+                <label>Rua/Avenida</label>    
+                <input class="form-control" name="logradouro" placeholder="Insira o nome da Rua ou Avenida" type="text"/>
                 <br>
-                <label>Nome Pai</label>
-                <input class="form-control" name="nomepai" placeholder="Insira o nome completo de seu pai" type="text"/>
+                <label>Número</label>
+                <input class="form-control" name="logradouro_numero" placeholder="Insira o número" type="text"/>
                 <br>
-                <label>Nome Mãe</label>
-                <input class="form-control" name="nomemae" placeholder="Insira o nome completo de sua mãe" type="text"/>
+                <label>Complemento</label>
+                <input class="form-control" name="complemento" placeholder="Insira o complemento" type="text"/>
                 <br>
-                <label>Nascimento</label>
-                <input id="dp_nasc" class="form-control" name="data_nasc" placeholder="Selecione sua data de nascimento" type="text" />
+                <label>Bairro</label>
+                <input class="form-control" name="bairro" placeholder="Insira o nome do Bairro" type="text"/>
                 <br>
-                <label class="col-xs-12 col-md-12 col-sm-12">Sexo</label><br />
-                 <label class="radio-inline">
-                    <input type="radio" name="sexo" id="inlineCheckboxEC1" value="masc" />
-                    Masculino
-                </label>
-                    <br />
-                <label class="radio-inline">
-                    <input type="radio" name="sexo" id="inlineCheckboxEC2" value="fem" />
-                    Feminino
-                </label>
+                <label>Cidade</label>
+                <input class="form-control" name="cidade" placeholder="Insira o nome da Cidade" type="text"/>
                 <br>
-                <br>
-                 <label class="col-xs-12 col-md-12 col-sm-12">Estado Civil</label><br />
-                 <label class="radio-inline">
-                    <input type="radio" name="estado_civil" id="inlineCheckboxEC1" value="solteiro(a)" />
-                    Solteiro(a)
-                </label>
-                    <br />
-                <label class="radio-inline">
-                    <input type="radio" name="estado_civil" id="inlineCheckboxEC2" value="casado(a)" />
-                    Casado(a)
-                </label>
-                    <br />
-                <label class="radio-inline">
-                    <input type="radio" name="estado_civil" id="inlineCheckboxEC3" value="divorciado(a)" />
-                    Divorciado(a)
-                </label>
-                    <br />
-                <label class="radio-inline">
-                    <input type="radio" name="estado_civil" id="inlineCheckboxEC4" value="viuvo(a)" />
-                    Viúvo(a)
-                </label>
-                    <br />
-                <label class="radio-inline">
-                    <input type="radio" name="estado_civil" id="inlineCheckboxEC5" value="outros" />
-                    Outros
-                </label>    
+                <!-- Select Basic -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="selectbasic">Unidade Federativa</label>
+                  <div class="col-md-4">
+                    <select id="selectbasic" name="selectbasic" class="form-control">
+                      <option value="AC">AC</option>
+                      <option value="AL">AL</option>
+                      <option value="AM">AM</option>
+                      <option value="AP">AP</option>
+                      <option value="BA">BA</option>
+                      <option value="CE">CE</option>
+                      <option value="DF">DF</option>
+                      <option value="ES">ES</option>
+                      <option value="GO">GO</option>
+                      <option value="MA">MA</option>
+                      <option value="MG">MG</option>
+                      <option value="MS">MS</option>
+                      <option value="MT">MT</option>
+                      <option value="PA">PA</option>
+                      <option value="PB">PB</option>
+                      <option value="PE">PE</option>
+                      <option value="PI">PI</option>
+                      <option value="PR">PR</option>
+                      <option value="RJ">RJ</option>
+                      <option value="RN">RN</option>
+                      <option value="RO">RO</option>
+                      <option value="RR">RR</option>
+                      <option value="RS">RS</option>
+                      <option value="SC">SC</option>
+                      <option value="SE">SE</option>
+                      <option value="SP">SP</option>
+                      <option value="TO">TO</option>
+                    </select>
+                  </div>
+                </div>
+                
+                </fieldset>
                 <br><br>
-                <label>Naturalidade</label>
-                <input class="form-control" name="naturalidade" placeholder="Insira a sua naturalidade" type="text"/>
                 <br>
-                <label>Nacionalidade</label><br>
-                <label class="radio-inline">
-                    <input type="radio" name="nacionalidade" id="inlineCheckboxEC4" value="br" />
-                    Brasileiro(a)
-                </label>
-                    <br />
-                <label class="radio-inline">
-                    <input type="radio" name="nacionalidade" id="inlineCheckboxEC5" value="estrangeiro" />
-                    Estrangeiro(a)
-                </label><br>  
-                <span class="pull-right">País</span>
-                <input class="form-control" name="país" placeholder="Insira o nome do país estrangeiro" type="text"/>
-                <br>
-                <label>Identidade</label>
-                <input class="form-control" name="identidade" placeholder="Insira o número de sua identidade" type="email" />
-                <br>
-                <label>Data da Expedição da Identidade</label>
-                <input id="dp_ident" class="form-control" name="IdentDtExp" placeholder="Selecione a Data de Expedição da Identidade" type="text" />
+                <label>CEP</label>
+                <input class="form-control" name="cep" placeholder="Insira o CEP" type="text"/>
                 <br>
                 <br>
-                <label>CPF</label>
-                <input class="form-control" name="cpf" placeholder="Insira o número de seu CPF" type="email" />
+                <label>Telefone Fixo</label>
+                <input class="form-control" name="tel_fixo" placeholder="Insira o código de área e o número do telefone fixo" type="text" />
+                <br>
+                <label>Telefone Celular</label>
+                <input class="form-control" name="tel_cel" placeholder="Insira o código de área e o número do telefone celular" type="text" />
                 <br>
                 <label>Email</label>
-                <input class="form-control" name="email" placeholder="Insira um Email para contato" type="email" />
+                <input class="form-control" name="email" placeholder="Insira o seu endereço de email" type="email" />
                 <br>
                 <label>Confirmação de email</label>
-                <input class="form-control" name="confirme_email" placeholder="Confirme o e-mail" type="email" />
+                <input class="form-control" name="conf_email" placeholder="Insira o seu endereço de email" type="email" />
                 <br>
-                <label>Senha</label>
-                <input class="form-control" name="senha" placeholder="Senha" type="password" />
-                <br>
-                <label>Confirmação de senha</label>
-                <input class="form-control" name="confirm_senha" placeholder="Confirme a senha" type="password" />
-                
-                
-                <input class="form-control" name="naturalidade" placeholder="Naturalidade (Insira a cidade de seu nascimento)" type="text"/>    
-                 
-                <br>    
-                <button class="btn btn-lg btn-primary btn-block" type="submit">
-                    Registrar</button>
+                <button class="btn btn-lg btn-success btn-block" type="submit">
+                    Avançar <span class="glyphicon glyphicon-arrow-right"></span></button>
                 </form><!--Fim do formulario -->
             </div>
         </div>
