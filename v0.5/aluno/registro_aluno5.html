@@ -1,0 +1,151 @@
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+            <title>Inscrição de Aluno</title>
+
+
+            <link href="../css/bootstrap.min.css" rel="stylesheet">
+            <link href="../css/menu.css" rel="stylesheet">
+            <link href="../js/jquery-ui-1.11.4.custom/jquery-ui.css" rel="stylesheet">
+
+          </head>
+          <body>
+
+    <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header"><a class="navbar-brand" href="#">PPGMMC</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menubuilder">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="/">Home</a>
+                </li>
+                <li><a href="/products">Products</a>
+                </li>
+                <li><a href="/about-us">About Us</a>
+                </li>
+                <li><a href="/contact">Contact Us</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="login_professor.html">Professor</a></li>
+                    <li><a href="login_aluno.html">Aluno</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="login_secretaria.html">Secretaria</a></li>
+                    <li><a href="login_gestao.html">Gestão</a></li>
+                  </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+              <br><br>
+
+        <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 well well-sm">
+                <legend><i class="glyphicon glyphicon-home"></i>&nbsp<i class="glyphicon glyphicon-earphone"></i></a> V - Endereço Profissional</legend>
+                <form action="#" method="post" class="form-group" role="form">
+                <label>Empregador</label>    
+                <input class="form-control" name="empregador" placeholder="Insira o nome do Empregador" type="text"/>
+                <br>
+                <label>Rua/Avenida</label>    
+                <input class="form-control" name="logradouro" placeholder="Insira o nome da Rua ou Avenida" type="text"/>
+                <br>
+                <label>Número</label>
+                <input class="form-control" name="logradouro_numero" placeholder="Insira o número" type="text"/>
+                <br>
+                <label>Complemento</label>
+                <input class="form-control" name="complemento" placeholder="Insira o complemento" type="text"/>
+                <br>
+                <label>Bairro</label>
+                <input class="form-control" name="bairro" placeholder="Insira o nome do Bairro" type="text"/>
+                <br>
+                <label>Cidade</label>
+                <input class="form-control" name="cidade" placeholder="Insira o nome da Cidade" type="text"/>
+                <br>
+                <!-- Select Basic -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="selectbasic">Unidade Federativa</label>
+                  <div class="col-md-4">
+                    <select id="selectbasic" name="selectbasic" class="form-control">
+                      <option value="AC">AC</option>
+                      <option value="AL">AL</option>
+                      <option value="AM">AM</option>
+                      <option value="AP">AP</option>
+                      <option value="BA">BA</option>
+                      <option value="CE">CE</option>
+                      <option value="DF">DF</option>
+                      <option value="ES">ES</option>
+                      <option value="GO">GO</option>
+                      <option value="MA">MA</option>
+                      <option value="MG">MG</option>
+                      <option value="MS">MS</option>
+                      <option value="MT">MT</option>
+                      <option value="PA">PA</option>
+                      <option value="PB">PB</option>
+                      <option value="PE">PE</option>
+                      <option value="PI">PI</option>
+                      <option value="PR">PR</option>
+                      <option value="RJ">RJ</option>
+                      <option value="RN">RN</option>
+                      <option value="RO">RO</option>
+                      <option value="RR">RR</option>
+                      <option value="RS">RS</option>
+                      <option value="SC">SC</option>
+                      <option value="SE">SE</option>
+                      <option value="SP">SP</option>
+                      <option value="TO">TO</option>
+                    </select>
+                  </div>
+                </div>
+                
+                </fieldset>
+                <br><br>
+                <br>
+                <label>CEP</label>
+                <input class="form-control" name="cep" placeholder="Insira o CEP" type="text"/>
+                <br>
+                <br>
+                <label>Telefone Comercial</label>
+                <input class="form-control" name="tel_fixo" placeholder="Insira o código de área e o número do telefone fixo" type="text" />
+                <br>
+                <label>Telefone Celular</label>
+                <input class="form-control" name="tel_cel" placeholder="Insira o código de área e o número do telefone celular" type="text" />
+                <br>
+                <label>Email</label>
+                <input class="form-control" name="email" placeholder="Insira o seu endereço de email" type="email" />
+                <br>
+                <button class="btn btn-lg btn-success btn-block" type="submit">
+                    Avançar <span class="glyphicon glyphicon-arrow-right"></span></button>
+                </form><!--Fim do formulario -->
+            </div>
+        </div>
+    </div>
+
+            <script src="../js/jquery-1.11.3.min.js"></script>
+            <script src="../js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+            <script src="../js/bootstrap.min.js"></script>
+            <script src="../js/jquery-ui-1.11.4.custom/datepicker-pt-BR.js"></script>
+            <script >
+                $('#dp_nasc').datepicker({
+                    inline: true,
+                    changeMonth: true,
+                    changeYear: true
+                });
+                $('#dp_ident').datepicker({
+                    inline: true,
+                    changeMonth: true,
+                    changeYear: true
+                });
+            </script>
+          </body>
+        </html>
