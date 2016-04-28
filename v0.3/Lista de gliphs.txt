@@ -1,3 +1,0 @@
-glyphicon glyphicon-education >> Aluno
-glyphicon glyphicon-book >>
-glyphicon glyphicon-calendar
