@@ -66,10 +66,10 @@
                     </div>
                   </fieldset>
                   <span for=""><b>Cargo ou Função</b></span><!--Colocar um id no for -->
-                  <input class="form-control" name="especificar" placeholder="" type="text"/>
+                  <input class="form-control" name="cargo_especificar" placeholder="" type="text"/>
                   <br>
                   <span for=""><b>Matrícula Funcional</b></span><!--Colocar um id no for -->
-                  <input class="form-control" name="especificar" placeholder="Digite o código da matrícula" type="text"/>
+                  <input class="form-control" name="matricula_funcional_especificar" placeholder="Digite o código da matrícula" type="text"/>
                   <br>
                   <button class="btn btn-lg btn-success btn-block" type="submit">
                     Avançar <span class="glyphicon glyphicon-arrow-right"></span></button>

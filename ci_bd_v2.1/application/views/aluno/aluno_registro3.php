@@ -29,7 +29,7 @@
                 <span class="pull-right">Mês e Ano de Início</span>
                 <input class="form-control" name="ini_grad" placeholder="Insira o mês e o ano do início da Graduação" type="text"/>
                 <span class="pull-right">Mês e Ano de Conclusão</span>
-                <input class="form-control" name="ini_grad" placeholder="Insira o mês e o ano da conclusão da Graduação" type="text"/>
+                <input class="form-control" name="fim_grad" placeholder="Insira o mês e o ano da conclusão da Graduação" type="text"/>
                 <br>
                 <form class="form-horizontal"><!-- formulario de bolsas-->
                 <fieldset>
@@ -39,7 +39,7 @@
                 <div class="form-group">
                   <div class="col-md-4">
                     <label class="checkbox-inline" for="checkboxes-0">
-                      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="PIBIC">
+                      <input type="checkbox" name="checkbox_pibic" id="checkboxes-0" value="PIBIC">
                       PIBIC
                     </label>
                   </div>
@@ -47,12 +47,12 @@
                 <br><br>
                 <!-- Text input-->
                 <div class="form-group col-xs-6">
-                  <span class="pull-right"" for="pibic_ini">Início</span>  
+                  <span class="pull-right" for="pibic_ini">Início</span>  
                   <input id="pibic_ini" name="pibic_ini" type="text" placeholder="Digite o Mês e Ano" class="form-control input-md">
                 </div>
                 <!-- Text input-->
                 <div class="form-group col-xs-6">
-                  <span class="pull-right"" for="pibic_fim">Fim</span>  
+                  <span class="pull-right" for="pibic_fim">Fim</span>  
                   <input id="pibic_fim" name="pibic_fim" type="text" placeholder="Digite o Mês e Ano" class="form-control input-md">
                 </div><br><br><br>
                 </div><!-- End div PIBIC-->
@@ -61,7 +61,7 @@
                 <div class="form-group">
                   <div class="col-md-4">
                     <label class="checkbox-inline" for="checkboxes-0">
-                      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="FAPERJ">
+                      <input type="checkbox" name="checkbox_faperj" id="checkboxes-0" value="FAPERJ">
                       FAPERJ
                     </label>
                   </div>
@@ -69,12 +69,12 @@
                 <br><br>
                 <!-- Text input-->
                 <div class="form-group col-xs-6">
-                  <span class="pull-right"" for="faperj_ini">Início</span>  
+                  <span class="pull-right" for="faperj_ini">Início</span>  
                   <input id="faperj_ini" name="faperj_ini" type="text" placeholder="Digite o Mês e Ano" class="form-control input-md">
                 </div>
                 <!-- Text input-->
                 <div class="form-group col-xs-6">
-                  <span class="pull-right"" for="faperj_fim">Fim</span>  
+                  <span class="pull-right" for="faperj_fim">Fim</span>  
                   <input id="faperj_fim" name="faperj_fim" type="text" placeholder="Digite o Mês e Ano" class="form-control input-md">
                 </div>
                 </div><!-- end div_faperj-->
@@ -83,7 +83,7 @@
                 <div class="form-group">
                   <div class="col-md-4">
                     <label class="checkbox-inline" for="checkboxes-0">
-                      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="PIBIC">
+                      <input type="checkbox" name="checkbox_cnpq" id="checkboxes-0" value="PIBIC">
                       CNPq
                     </label>
                   </div>
@@ -91,12 +91,12 @@
                 <br><br>
                 <!-- Text input-->
                 <div class="form-group col-xs-6">
-                  <span class="pull-right"" for="cnpq_ini">Início</span>  
+                  <span class="pull-right" for="cnpq_ini">Início</span>  
                   <input id="cnpq_ini" name="cnpq_ini" type="text" placeholder="Digite o Mês e Ano" class="form-control input-md">
                 </div>
                 <!-- Text input-->
                 <div class="form-group col-xs-6">
-                  <span class="pull-right"" for="cnpq_fim">Fim</span>  
+                  <span class="pull-right" for="cnpq_fim">Fim</span>  
                   <input id="cnpq_fim" name="cnpq_fim" type="text" placeholder="Digite o Mês e Ano" class="form-control input-md">
                 </div>
                 </div><!-- end div_cnpq-->
@@ -105,23 +105,23 @@
                 <div class="form-group">
                   <div class="col-md-4">
                     <label class="checkbox-inline" for="checkboxes-0">
-                      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="PIBIC">
+                      <input type="checkbox" name="checkbo_outro" id="checkboxes-0" value="outro">
                       Outro
                     </label>
                   </div>
                 </div>
                 <br>
-                <span class="pull-right"" for="outro_fim">Especificar</span>
+                <span class="pull-right" for="outro_fim">Especificar</span>
                 <input class="form-control" name="especificar" placeholder="Insira o nome da Instituição" type="text"/>
                 <br>
                 <!-- Text input-->
                 <div class="form-group col-xs-6">
-                  <span class="pull-right"" for="cnpq_ini">Início</span>  
+                  <span class="pull-right" for="cnpq_ini">Início</span>  
                   <input id="outro_ini" name="outro_ini" type="text" placeholder="Digite o Mês e Ano" class="form-control input-md">
                 </div>
                 <!-- Text input-->
                 <div class="form-group col-xs-6">
-                  <span class="pull-right"" for="outro_fim">Fim</span>  
+                  <span class="pull-right" for="outro_fim">Fim</span>  
                   <input id="outro_fim" name="outro_fim" type="text" placeholder="Digite o Mês e Ano" class="form-control input-md">
                 </div>
                 </div><!-- end div_outro-->

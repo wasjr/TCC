@@ -24,10 +24,10 @@
                 <label>Linhas de Pesquisa</label>
                 <br>
                 1ª Opção
-                <input class="form-control" name="1_opcao" placeholder="" type="text"/>
+                <input class="form-control" name="prim_opcao" placeholder="" type="text"/>
                 <br>
                 2ª Opção
-                <input class="form-control" name="2_opcao" placeholder="" type="text"/>
+                <input class="form-control" name="seg_opcao" placeholder="" type="text"/>
                 <br>
                 
                 <form class="form-horizontal">
@@ -36,43 +36,43 @@
                   <!-- Form Name -->
                  
                   
-                  <!-- Multiple Checkboxes -->
+                  <!-- Multiple checkbox_disc -->
                   <div class="form-group">
-                    <label class="col-md-4 control-label" for="checkboxes">Disciplinas</label>
+                    <label class="col-md-4 control-label" for="checkbox_disc">Disciplinas</label>
                     <div class="col-md-4">
                     <div class="checkbox">
-                      <label for="checkboxes-0">
-                        <input name="checkboxes" id="checkboxes-0" value="1" type="checkbox">
+                      <label for="checkbox_disc-0">
+                        <input name="checkbox_disc" id="checkbox_disc-0" value="1" type="checkbox">
                         Disciplina 1
                       </label>
                       </div>
                     <div class="checkbox">
-                      <label for="checkboxes-1">
-                        <input name="checkboxes" id="checkboxes-1" value="2" type="checkbox">
+                      <label for="checkbox_disc-1">
+                        <input name="checkbox_disc" id="checkbox_disc-1" value="2" type="checkbox">
                         Disciplina 2
                       </label>
                       </div>
                     <div class="checkbox">
-                      <label for="checkboxes-2">
-                        <input name="checkboxes" id="checkboxes-2" value="3" type="checkbox">
+                      <label for="checkbox_disc-2">
+                        <input name="checkbox_disc" id="checkbox_disc-2" value="3" type="checkbox">
                         Disciplina 3
                       </label>
                       </div>
                     <div class="checkbox">
-                      <label for="checkboxes-3">
-                        <input name="checkboxes" id="checkboxes-3" value="4" type="checkbox">
+                      <label for="checkbox_disc-3">
+                        <input name="checkbox_disc" id="checkbox_disc-3" value="4" type="checkbox">
                         Disciplina 4
                       </label>
                       </div>
                     <div class="checkbox">
-                      <label for="checkboxes-4">
-                        <input name="checkboxes" id="checkboxes-4" value="5" type="checkbox">
+                      <label for="checkbox_disc-4">
+                        <input name="checkbox_disc" id="checkbox_disc-4" value="5" type="checkbox">
                         Disciplina 5
                       </label>
                       </div>
                     <div class="checkbox">
-                      <label for="checkboxes-5">
-                        <input name="checkboxes" id="checkboxes-5" value="6" type="checkbox">
+                      <label for="checkbox_disc-5">
+                        <input name="checkbox_disc" id="checkbox_disc-5" value="6" type="checkbox">
                         Disciplina 6
                       </label>
                       </div>

@@ -23,25 +23,25 @@
                 <input class="form-control" name="empregador" placeholder="Insira o nome do Empregador" type="text"/>
                 <br>
                 <label>Rua/Avenida</label>    
-                <input class="form-control" name="logradouro" placeholder="Insira o nome da Rua ou Avenida" type="text"/>
+                <input class="form-control" name="emp_logradouro" placeholder="Insira o nome da Rua ou Avenida" type="text"/>
                 <br>
                 <label>Número</label>
-                <input class="form-control" name="logradouro_numero" placeholder="Insira o número" type="text"/>
+                <input class="form-control" name="emp_logradouro_numero" placeholder="Insira o número" type="text"/>
                 <br>
                 <label>Complemento</label>
-                <input class="form-control" name="complemento" placeholder="Insira o complemento" type="text"/>
+                <input class="form-control" name="emp_complemento" placeholder="Insira o complemento" type="text"/>
                 <br>
                 <label>Bairro</label>
-                <input class="form-control" name="bairro" placeholder="Insira o nome do Bairro" type="text"/>
+                <input class="form-control" name="emp_bairro" placeholder="Insira o nome do Bairro" type="text"/>
                 <br>
                 <label>Cidade</label>
-                <input class="form-control" name="cidade" placeholder="Insira o nome da Cidade" type="text"/>
+                <input class="form-control" name="emp_cidade" placeholder="Insira o nome da Cidade" type="text"/>
                 <br>
                 <!-- Select Basic -->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="selectbasic">Unidade Federativa</label>
+                  <label class="col-md-4 control-label" for="emp_estado">Unidade Federativa</label>
                   <div class="col-md-4">
-                    <select id="selectbasic" name="selectbasic" class="form-control">
+                    <select id="emp_estado" name="emp_estado" class="form-control">
                       <option value="AC">AC</option>
                       <option value="AL">AL</option>
                       <option value="AM">AM</option>
@@ -77,17 +77,17 @@
                 <br><br>
                 <br>
                 <label>CEP</label>
-                <input class="form-control" name="cep" placeholder="Insira o CEP" type="text"/>
+                <input class="form-control" name="emp_cep" placeholder="Insira o CEP" type="text"/>
                 <br>
                 <br>
                 <label>Telefone Comercial</label>
-                <input class="form-control" name="tel_fixo" placeholder="Insira o código de área e o número do telefone fixo" type="text" />
+                <input class="form-control" name="emp_tel_fixo" placeholder="Insira o código de área e o número do telefone fixo" type="text" />
                 <br>
                 <label>Telefone Celular</label>
-                <input class="form-control" name="tel_cel" placeholder="Insira o código de área e o número do telefone celular" type="text" />
+                <input class="form-control" name="emp_tel_cel" placeholder="Insira o código de área e o número do telefone celular" type="text" />
                 <br>
                 <label>Email</label>
-                <input class="form-control" name="email" placeholder="Insira o seu endereço de email" type="email" />
+                <input class="form-control" name="emp_email" placeholder="Insira o seu endereço de email" type="email" />
                 <br>
                 <button class="btn btn-lg btn-success btn-block" type="submit">
                     Avançar <span class="glyphicon glyphicon-arrow-right"></span></button>

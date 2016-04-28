@@ -3,6 +3,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Aluno extends CI_Controller {
 
+ 	function __construct()
+    {
+        
+        parent::__construct();
+		$this->load->model('aluno_model');
+		$this->load->library('table');
+    } 
+ 
  
 	public function index(){
 		$this->load->view('header');
@@ -73,7 +81,7 @@ class Aluno extends CI_Controller {
 	}
 	
 	public function cadastro3(){
-		$this->load->library('form_validation');//carregar validacao formulario
+		
 		
 		//regras do formulario
 		$this->form_validation->set_rules('graduacao', 'Graduação', 'required|callback_alpha_dash_space');
@@ -99,7 +107,7 @@ class Aluno extends CI_Controller {
 	}
 	
 	public function cadastro4(){
-		$this->load->library('form_validation');//carregar validacao formulario
+		
 		
 		//regras do formulario
 		$this->form_validation->set_rules('radios', 'Seletor de Instituição', 'required');
@@ -124,7 +132,7 @@ class Aluno extends CI_Controller {
 	}
 
 	public function cadastro5(){
-		$this->load->library('form_validation');//carregar validacao formulario
+		
 		
 		//regras do formulario
 		$this->form_validation->set_rules('empregador', 'Empregador', 'required|callback_alpha_dash_space');
@@ -149,7 +157,7 @@ class Aluno extends CI_Controller {
 	}
 	
 	public function cadastro6(){
-		$this->load->library('form_validation');//carregar validacao formulario
+		
 		
 		//regras do formulario
 		$this->form_validation->set_rules('area_concentracao', 'Área de Concentração', 'required|callback_alpha_dash_space');
